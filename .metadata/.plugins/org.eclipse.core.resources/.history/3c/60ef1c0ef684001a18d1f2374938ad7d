@@ -1,0 +1,17 @@
+package com.example.demo;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class RateController {
+	String rate;
+	String quantity;
+	
+	public String getRate() {
+		return this.rate;
+	}
+	
+	public String getQuantity() {
+		return this.quantity;
+	}
+}

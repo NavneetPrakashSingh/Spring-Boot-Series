@@ -1,0 +1,11 @@
+INDEX VERSION 1.131+C:\Users\navne\Documents\workspace-sts-3.9.8.RELEASE\SpringBootPluralsightWorkspace\.metadata\.plugins\org.eclipse.jdt.core
+3168805088.index
+2859919663.index
+2874308981.index
+640328852.index
+2364601962.index
+3975218935.index
+3201190223.index
+1575849975.index
+3055911676.index
+1753557932.index

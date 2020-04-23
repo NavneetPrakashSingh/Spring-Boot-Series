@@ -1,0 +1,13 @@
+---
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/NavneetPrakashSingh/spring-cloud-config-chocolate-bar
+          #username:uname
+          #password:pass
+          search-paths:
+            - 'company*'
