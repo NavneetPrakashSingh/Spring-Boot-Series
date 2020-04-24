@@ -16,15 +16,16 @@ public class RateController {
 	@Value("${quantity}")
 	String quantity;
 	
-//	@Value("${connstring}")
-//	String connectionString;
+	@Value("${connstring}")
+	String connstring;
 	
 	@RequestMapping("/rate")
 	public String getRate(Model m) {
 		
+		System.out.println(this.connstring);
 		m.addAttribute("rateamount",this.rate);
 		m.addAttribute("quantity",this.quantity);
-//		m.addAttribute("connectionString",this.connectionString)
+		m.addAttribute("connstring",this.connstring);
 		return "rateview";
 	}
 	
